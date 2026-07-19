@@ -164,6 +164,52 @@ section h2 {
   text-align: center;
 }
 
+.about p {
+  text-align: center;
+}
+
+.contact p {
+  margin: 0 auto 22px;
+  max-width: 700px;
+  text-align: center;
+  color: #4b627f;
+}
+
+.contact-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.contact-links li {
+  margin: 0;
+}
+
+.contact-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 22px;
+  border-radius: 14px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #ffffff;
+  background: linear-gradient(135deg, #4f6fc1 0%, #2f4f97 100%);
+  box-shadow: 0 14px 30px rgba(47, 79, 151, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+.contact-button:hover,
+.contact-button:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 34px rgba(47, 79, 151, 0.18);
+  opacity: 0.95;
+}
+
 .about li {
   margin-bottom: 12px;
 }

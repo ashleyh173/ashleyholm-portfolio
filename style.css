@@ -210,6 +210,47 @@ section h2 {
   opacity: 0.95;
 }
 
+/* Project cards keep each project name and link easy to scan */
+.project-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  flex: 1 1 220px;
+  padding: 20px;
+  background: #f8fbff;
+  text-align: center;
+  border: 1px solid rgba(71, 98, 150, 0.12);
+  border-radius: 14px;
+}
+
+.project-card h3 {
+  margin: 0 0 10px;
+  color: #243a62;
+  font-size: 1.2rem;
+}
+
+.project-card p {
+  margin: 0 0 18px;
+  color: #4b627f;
+}
+
+.project-card a {
+  color: #2f4f97;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-card a:hover,
+.project-card a:focus-visible {
+  text-decoration: underline;
+}
+
 .about li {
   margin-bottom: 12px;
 }
